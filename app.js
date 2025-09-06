@@ -1,4 +1,6 @@
 const express = require("express");
+require("dotenv").config();
+require("./connection/conn");
 const app = express();
 
 app.get("/", (req, res) => {
